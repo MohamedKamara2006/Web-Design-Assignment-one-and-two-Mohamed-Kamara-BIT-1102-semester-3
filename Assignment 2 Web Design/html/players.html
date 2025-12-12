@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Agency Sierra Leone</title>
+    <link rel="stylesheet" href="../css/style.css">
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+     <header class="home-header">
+        <div class="container">
+            <h1>FOOTBALL AGENCY SIERRA LEONE</h1>
+        </div>
+    </header>
+    <nav class="home-nav-bar">
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="players.html" class="active">Players</a></li>
+                <li><a href="matches.html">Matches</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+   <main class="players-page">
+    <div class="container">
+        <h2>Players</h2>
+        <div class="player-filters">
+            <input type="text" placeholder="Search player name" class="search-input">
+            <div class="dropdown">
+                <button class="dropbtn">Position &#9660;</button>
+                <div class="dropdown-content">
+                    <a href="#">Forward</a>
+                    <a href="#">Midfielder</a>
+                    <a href="#">Defender</a>
+                    <a href="#">Goalkeeper</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="player-grid">
+            <div class="card player-card">
+                <div class="avatar-wrapper">
+                    <img 
+                            src="../images/mohamed.jpeg" 
+                        alt="Mohamed Kamara"
+                        class="avatar-img"
+                        onerror="this.style.display='none'; this.parentElement.querySelector('.fallback-initials').style.display='flex'"
+                    >
+                    <div class="fallback-initials" style="display: none;">MK</div>
+                </div>
+                <div class="card-content">
+                    <div class="player-name">Mohamed Kamara</div>
+                    <div class="position">Midfielder</div>
+                    <div class="stats">22 Matches • 8 Goals • 10 Assists</div>
+                    <a href="#" class="btn view-button">View Profile</a>
+                </div>
+            </div>
+
+            <div class="card player-card">
+                <div class="avatar-wrapper">
+                    <img 
+                            src="../images/Emmanuel.jpeg" 
+                        alt="Emmanuel Brandon"
+                        class="avatar-img"
+                        onerror="this.style.display='none'; this.parentElement.querySelector('.fallback-initials').style.display='flex'"
+                    >
+                    <div class="fallback-initials" style="display: none;">EB</div>
+                </div>
+                <div class="card-content">
+                    <div class="player-name">Emmanuel Brandon</div>
+                    <div class="position">Forward</div>
+                    <div class="stats">20 Matches • 15 Goals • 5 Assists</div>
+                    <a href="#" class="btn view-button">View Profile</a>
+                </div>
+            </div>
+
+            <div class="card player-card">
+                <div class="avatar-wrapper">
+                    <img 
+                            src="../images/abdul.jpeg" 
+                        alt="Abdul Kamara"
+                        class="avatar-img"
+                        onerror="this.style.display='none'; this.parentElement.querySelector('.fallback-initials').style.display='flex'"
+                    >
+                    <div class="fallback-initials" style="display: none;">AK</div>
+                </div>
+                <div class="card-content">
+                    <div class="player-name">Abdul Kamara</div>
+                    <div class="position">Defender</div>
+                    <div class="stats">15 Matches • 1 Goal • 0 Assists</div>
+                    <a href="#" class="btn view-button">View Profile</a>
+                </div>
+            </div>
+
+            <div class="card player-card">
+                <div class="avatar-wrapper">
+                    <img 
+                            src="../images/john.jpeg" 
+                        alt="John Turay"
+                        class="avatar-img"
+                        onerror="this.style.display='none'; this.parentElement.querySelector('.fallback-initials').style.display='flex'"
+                    >
+                    <div class="fallback-initials" style="display: none;">JT</div>
+                </div>
+                <div class="card-content">
+                    <div class="player-name">John Turay</div>
+                    <div class="position">Goalkeeper</div>
+                    <div class="stats">22 Matches • 8 Clean Sheets</div>
+                    <a href="#" class="btn view-button">View Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+
+</main>
